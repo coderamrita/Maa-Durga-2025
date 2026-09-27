@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Arimo:ital,wght@0,400..700;1,400..700&family=Audiowide&family=Bad+Script&family=Bangers&family=Berkshire+Swash&family=Betania+Patmos&family=Black+Ops+One&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Bruno+Ace+SC&family=Cardo:ital,wght@0,400;0,700;1,400&family=Caveat:wght@400..700&family=Cinzel:wght@400..900&family=Cookie&family=Courgette&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dancing+Script:wght@400..700&family=Delius&family=Elsie:wght@400;900&family=Felipa&family=Gorditas:wght@400;700&family=Grand+Hotel&family=Italianno&family=Kaushan+Script&family=Limelight&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Original+Surfer&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+BR+Guides&family=Playwrite+NZ+Basic:wght@100..400&family=Protest+Riot&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&family=Sacramento&family=Smooch+Sans:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Tagesschrift&family=Vampiro+One&family=Viga&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px;
+    background-color: #f5e6d3;
+}
+
+h1 {
+    text-align: center;
+    color: #6b2d23;
+    margin-bottom: 40px;
+    font-family: "Limelight", sans-serif;
+  font-weight: 600;
+}
+h1:hover {
+    letter-spacing: 4px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+/* Card */
+.container {
+   width: 250px;
+    padding: 15px;
+    background-color: #fff8ed;
+    border: 2px solid #8f3d2e;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+.container img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.container h3 {
+    color: #6b2d23;
+    font-size: 20px;
+}
+.container p {
+    color: #4a3028;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+.container:hover {
+    border-color: #e63946;
+    background-color: #fff0d6;
+    box-shadow: 0 10px 30px rgba(230, 57, 70, 0.35);
+    transform: translateY(-8px);
+    cursor: pointer;
+    transition: 1s;
+}
+h5 {
+    text-align: center;
+    justify-content: center;
+    margin: 30px 0;
+    color: #35140d;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 900;
+}
+h6 {
+    text-align: center;
+    justify-content: center;
+    margin: 0 30px;
+    padding-bottom: 20px;
+    color: #590737;
+    font-size: 17px;
+    letter-spacing: 3px;
+    font-family: "Dancing Script", cursive;
+    font-weight: 900;
+}
+/* Tablet */
+@media (max-width: 1000px) {
+    .container {
+        width: 300px;
+    }
+}
+
+/* Small Tablet */
+@media (max-width: 750px) {
+    .container {
+        width: 300px;
+    }
+}
+/* Mobile */
+@media (max-width: 500px) {
+
+    .container {
+        width: 100%;
+    }
+}
+    </style>
+</head>
+<body>
+      <h1>East Medinipur Durga Puja</h1>
+
+    <div class="cards">
+<div class="container">
+            <img src="hal.jpg" alt="Durga Maa">
+            <h3>Hazramore Maitribhumi</h3>
+            <h4> ২০ তম বর্ষ</h4>
+            <p>শারদীয়ার কয়েকদিন এখানে মানুষের মধ্যে উৎসবের আমেজ থাকে।</p>
+        </div>
+        <div class="container">
+            <img src="youth.jpg " alt="Durga Maa">
+            <h3>Contai YouthGuild Club</h3>
+            <h4>৩৭তম বর্ষ</h4>
+            <p>ঐতিহ্য ও আনন্দের সঙ্গে এখানে দুর্গাপূজা উদযাপন করা হয়।</p>
+        </div>
+
+        <div class="container">
+            <img src="nandanik.jpg" alt="Durga Maa">
+            <h3>Contai Nandanik</h3>
+            <h4>২২তম বর্ষ</h4>
+
+            <p>ঐতিহ্যবাহী প্রতিমা এবং ভিন্ন স্বাদের সামাজিক থিমের জন্য জনপ্রিয়।</p>
+        </div>
+
+        <div class="container">
+            <img src="mechogram.jpg" alt="Durga Maa">
+            <h3>Mechogram Sarbojanin</h3>
+            <h4>৩৫তম বর্ষ </h4>
+            <p>সাজসজ্জা ও সাংস্কৃতিক অনুষ্ঠানের জন্য এই পূজা পরিচিত।</p>
+        </div>
+
+        <div class="container">
+            <img src="sports.jpg" alt="Durga Maa">
+            <h3>Nandakumar NSCC Club</h3>
+            <h4>৫০তম বর্ষ</h4>
+            <p>ঐতিহ্যবাহী পরিবেশে ভক্তি ও উৎসাহের সঙ্গে পূজা হয়।</p>
+        </div>
+
+        <div class="container">
+            <img src="juger.jpg" alt="Durga Maa">
+            <h3> Haldia Juger Jatri Club </h3>
+            <h4>৩৯তম বর্ষ</h4>
+            <p>স্থানীয় মানুষের মিলন ও উৎসবের অন্যতম বড় আকর্ষণ।</p>
+        </div>
+
+        <div class="container">
+            <img src="tamluk.jpg" alt="Durga Maa">
+            <h3> Tamluk  Basan Balak Sangha</h3>
+            <h4>৪২ তম</h4>
+            <p>নতুন প্রজন্ম ও ঐতিহ্যের সুন্দর সমন্বয়ে পূজা অনুষ্ঠিত হয়।</p>
+        </div>
+
+        <div class="container">
+            <img src="myco.jpeg" alt="Durga Maa">
+            <h3>Mahishadal MYCO Club</h3>
+           <h4>   ৫৩ তম বর্ষ </h4>
+            <p> শহরের পরিবেশে শারদীয়া উৎসব পায় এক বিশেষ রূপ।</p>
+        </div>
+
+        <div class="container">
+            <img src="mahisadal.jpeg" alt="Durga Maa">
+            <h3> Mahisadal Sunday Club</h3>
+            <h4>৫৮ তম বর্ষ </h4>
+            <p>প্রাচীন ঐতিহ্যকে সঙ্গে নিয়ে এখানে দুর্গাপূজা পালিত হয়।</p>
+        </div>
+
+        <div class="container">
+            <img src="basudevpur.jpeg" alt="Durga Maa">
+            <h3>Basudevpur Khudiram Smriti Sangha</h3>
+            <h4>৩৭ তম বর্ষ</h4>
+            <p>ভক্তি, সংস্কৃতি ও মানুষের মিলনে এই পূজা হয়ে ওঠে বিশেষ।</p>
+        </div>
+
+        <div class="container">
+            <img src="chandipur.jpeg" alt="Durga Maa">
+            <h3>Kalikakhali Youth Forum Club</h3>
+            <h4>২৩ তম বর্ষ</h4>
+            <p>আনন্দ ও উৎসাহের সঙ্গে প্রতিবছর শারদীয়া উৎসব পালিত হয়।</p>
+        </div>
+
+        <div class="container">
+            <img src="jhorer.jpeg" alt="Durga Maa">
+            <h3> Chandipur Jhorer Kheya </h3>
+            <h4> ২৩ তম বর্ষ</h4>
+            <p>ভক্তি ও আনন্দের সঙ্গে প্রতিবছর এখানে দুর্গাপূজা পালিত হয়।</p>
+        </div>
+
+        <div class="container">
+            <img src="pratay.webp" alt="Durga Maa">
+            <h3>Club Pratyayi</h3>
+            <h4>১২ তম বর্ষ </h4>
+            <p>স্থানীয় মানুষের মিলন ও উৎসবের সুন্দর পরিবেশ এখানে দেখা যায়।</p>
+        </div>
+
+        <div class="container">
+            <img src="chowrangi.jpg" alt="Durga Maa">
+            <h3>Chowrangee Recreation Club</h3>
+            <h4>২৮ তম বর্ষ</h4>
+            <p>ঐতিহ্য মেনে সুন্দরভাবে শারদীয়া উৎসবের আয়োজন করা হয়।</p>
+        </div>
+
+        <div class="container">
+            <img src="anada.jpg" alt="Durga Maa">
+            <h3>Haldia Durgotsav Committee</h3>
+            <h4>৪৬ তম বর্ষ </h4>
+            <p>সাজসজ্জা ও সাংস্কৃতিক অনুষ্ঠানে পূজার পরিবেশ হয়ে ওঠে আনন্দময়।</p>
+        </div>
+
+        
+
+        <div class="container">
+            <img src="images1.jpg" alt="Durga Maa">
+            <h3>Durgachak Milan Sangha</h3>
+            <h4> ৬২ তম বর্ষ</h4>
+            <p>ভক্তি ও সংস্কৃতির সুন্দর মেলবন্ধনে এখানে পূজা অনুষ্ঠিত হয়।</p>
+        </div>
+
+        <div class="container">
+            <img src="naba.jpg" alt="Durga Maa">
+            <h3>Chaitanyapur Nabatara Club</h3>
+            <h4>৩০ তম বর্ষ</h4>
+            <p>প্রতিবছর নতুন আয়োজনের মাধ্যমে দুর্গোৎসব উদযাপন করা হয়।</p>
+        </div>
+
+        <div class="container">
+            <img src="ranichak.jpg" alt="Durga Maa">
+            <h3> Haldia Ranichak Oriental Club </h3>
+            <h4>৫০ তম বর্ষ</h4>
+            <p>এলাকার মানুষ একসঙ্গে মিলিত হয়ে আনন্দের সঙ্গে পূজা করেন।</p>
+        </div>
+
+        <div class="container">
+            <img src="khudiram.jpeg" alt="Durga Maa">
+            <h3>Khudiram Nagar Durga Idol</h3>
+            <h4>৫০ তম বর্ষ </h4>
+            <p>ঐতিহ্যবাহী পূজা ও সুন্দর মণ্ডপের জন্য উৎসবের আমেজ তৈরি হয়।</p>
+        </div>
+
+        <div class="container">
+            <img src="citycenter.jpg" alt="Durga Maa">
+            <h3>Haldia City Centre Mall</h3>
+            <h4>১১ তম বর্ষে </h4>
+            <p>শারদীয়া উৎসবে ভক্তি, আনন্দ ও সংস্কৃতির মিলন ঘটে।</p>
+        </div>
+<h5 >Thanks for Visiting</h5>
+<h6>Developed By Amrita Pandit</h6>
+    </div>
+
+</body>
+</html>
